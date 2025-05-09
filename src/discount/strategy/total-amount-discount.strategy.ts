@@ -4,6 +4,7 @@ import { DiscountStrategy } from './discount.strategy';
 @Injectable()
 export class TotalAmountDiscountStrategy implements DiscountStrategy {
   calculateDiscount(): number {
+    // Some complex calculation logic.....
     return 55;
   }
 }
